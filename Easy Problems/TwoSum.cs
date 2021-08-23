@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LeetCodeSolutions_CSharp.Easy_Problems
 {
-    //Runtime: 332 ms, faster than 33.95% of C# online submissions for Two Sum.
-    //Memory Usage: 32.3 MB, less than 90.16% of C# online submissions for Two Sum.
+    //Runtime: 320 ms, faster than 47.42% of C# online submissions for Two Sum.
+    //Memory Usage: 32.5 MB, less than 53.20% of C# online submissions for Two Sum.
     public static class TwoSum
     {
         public static int[] GetTwoSum(int[] nums, int target)
@@ -22,6 +22,8 @@ namespace LeetCodeSolutions_CSharp.Easy_Problems
                     {
                         addends[0] = i;
                         addends[1] = j;
+
+                        return addends;
                     }
                 }
             }
