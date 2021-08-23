@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCodeSolutions_CSharp.Easy_Problems;
+using System;
 
 namespace LeetCodeSolutions_CSharp
 {
@@ -6,7 +7,6 @@ namespace LeetCodeSolutions_CSharp
     {
         static void Main(string[] args)
         {
-            
         }
     }
 }
